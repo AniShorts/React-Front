@@ -1,0 +1,30 @@
+//변수 설정
+$mobile: 780px;
+$tablet-min: 781px;
+$tablet-max: 1023px;
+$desktop: 1024px;
+
+//테마 컬러
+$main-color : #9BE3DE;
+$side-color : #BEEBE9;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+a,
+button {
+    cursor: pointer;
+}
