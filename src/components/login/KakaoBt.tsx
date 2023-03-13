@@ -1,10 +1,11 @@
 import "../../css/intro.css"
 import { RiKakaoTalkFill } from 'react-icons/ri';
 
-const KakaoBt = (props : any) => {
+const KakaoBt = (props : {name : string} ) => {
   return (
     <div className='kakaoBt'>
-        <h3>{props.name}</h3>
+        <p><RiKakaoTalkFill/></p>
+        <p>{props.name}</p>
     </div>
   )
 }
